@@ -45,3 +45,17 @@ let customers = [
 customers.push({ name: "Hailey", email: "Hailey@gmail.com", purchaseAmount: 145});
 
 log("Customer list:", customers);
+
+// Task 5 
+let order = {
+  orderID: 1234,
+  customerName: "Emma",
+  amount: 150,
+
+  calculateTax: function() {
+    return this.amount * 0.10;
+  }
+};
+
+consol.log("Order Details:", order);
+consol.log("Tax Amount: $", order.calculateTax());
