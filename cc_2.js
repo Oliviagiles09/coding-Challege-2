@@ -19,3 +19,18 @@ let average = total / scores.length;
 consol.log("Updated Scores:", scores);
 consol.log(total);
 consol.log("Average Scores:", average);
+
+// Task 3 
+let employee = {
+  name: "Natalie Roberts",
+  age: 21,
+  department:"Sales",
+  isActive: true
+};
+
+consol.log(employee);
+
+employee.department = "HR";
+employee.position = "Manager";
+
+consol.log(employee);
