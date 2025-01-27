@@ -33,4 +33,15 @@ consol.log(employee);
 employee.department = "HR";
 employee.position = "Manager";
 
-consol.log(employee);
+consol.log("Update employee object:", employee);
+
+// Task 4 
+let customers = [
+  { name: "Natalie", email: "Natalie@gmail.com", purchaseAmount: 200},
+  { name: "Emma", email: "Emma@gmail.com", purchaseAmount: 150},
+  { name: "Ariella", email: "Ariella@gmail.com", purchaseAmount: 100},
+  ];
+
+customers.push({ name: "Hailey", email: "Hailey@gmail.com", purchaseAmount: 145});
+
+log("Customer list:", customers);
